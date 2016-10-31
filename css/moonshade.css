@@ -1,0 +1,49 @@
+body {
+  font:             12px sans-serif;
+  background-color: #263238;
+}
+
+.axis path,
+.axis line {
+  fill:            none;
+  stroke:          #90a4ae;
+  stroke-width:    2px;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 12px sans-serif;
+  fill: #90a4ae;
+}
+
+.axis.phase .tick,
+.axis.quarter .tick {
+  cursor: pointer;
+}
+
+.handler {
+  fill:         #ffd54f;
+  stroke:       #795548;
+  stroke-width: 2px;
+  cursor:       col-resize;
+}
+
+.phaser {
+  font-size:   14px;
+  fill:        #ffd54f;
+  text-anchor: middle;
+}
+
+.moonbg 
+#shade {
+  shape-rendering: geometricPrecision;
+}
+
+.moonbg {
+  fill: #ffd54f;
+}
+
+#shade {
+  fill:    #263238;
+  opacity: 0.7;
+}
